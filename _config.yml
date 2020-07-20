@@ -1,7 +1,7 @@
 # Book settings
-title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+title: CS Grad Subjects
+author: Cin Open Soruce
+logo: assets/logo.png
 
 latex:
   latex_documents:
