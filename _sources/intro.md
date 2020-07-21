@@ -1,7 +1,3 @@
-Welcome to your Jupyter Book
+CS Grad Subjects
 ============================
-
-This is a small sample book to give you a feel for how book content is
-structured.
-
-Check out the content pages bundled with this sample book to get started.
+Conteúdo de quase todas as cadeiras do curso de Ciência da Computação do Centro de Informática 

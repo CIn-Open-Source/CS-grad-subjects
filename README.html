@@ -28,7 +28,6 @@
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
 
@@ -66,10 +65,100 @@
   
   <ul class="nav sidenav_l1">
   <li class="">
-    <a href="intro.html">Welcome to your Jupyter Book</a>
+    <a href="intro.html">CS Grad Subjects</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Primeiro Período</p>
+</li>
+  <li class="">
+    <a href="1/avlc.html">Álgebra Vetorial Linear para Computação</a>
   </li>
   <li class="">
-    <a href="content.html">Content in Jupyter Book</a>
+    <a href="1/calculo.html">Cálculo Diferencial e Integral 1</a>
+  </li>
+  <li class="">
+    <a href="1/ic.html">Introdução à Computação</a>
+  </li>
+  <li class="">
+    <a href="1/ip.html">Introdução à Programação</a>
+  </li>
+  <li class="">
+    <a href="1/md.html">Matemática Discreta</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Segundo Período</p>
+</li>
+  <li class="">
+    <a href="2/algoritmos.html">Algoritmos e Estruturas de Dados</a>
+  </li>
+  <li class="">
+    <a href="2/estatistica.html">Estatística e Probabilidade para Computação</a>
+  </li>
+  <li class="">
+    <a href="2/fisica.html">Física para Computação</a>
+  </li>
+  <li class="">
+    <a href="2/logica.html">Lógica para Computação</a>
+  </li>
+  <li class="">
+    <a href="2/sd.html">Sistemas Digitais</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Terceiro Período</p>
+</li>
+  <li class="">
+    <a href="3/infra_hard.html">Infraestrutura de Hardware</a>
+  </li>
+  <li class="">
+    <a href="3/infra_soft.html">Infraestrutura de Software</a>
+  </li>
+  <li class="">
+    <a href="3/infra_com.html">Infraestrutura de Comunicação</a>
+  </li>
+  <li class="">
+    <a href="3/ingles.html">Inglês para Computação</a>
+  </li>
+  <li class="">
+    <a href="3/infosoc.html">Informática e Sociedade</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Quarto Período</p>
+</li>
+  <li class="">
+    <a href="4/ess.html">Engenharia de Software e Sistemas</a>
+  </li>
+  <li class="">
+    <a href="4/gdi.html">Gerenciamento de Dados e Informação</a>
+  </li>
+  <li class="">
+    <a href="4/ium.html">Interface Usuário Máquina</a>
+  </li>
+  <li class="">
+    <a href="4/pg.html">Processamento Gráfico</a>
+  </li>
+  <li class="">
+    <a href="4/si.html">Sistems Inteligentes</a>
+  </li>
+  <li class="">
+    <a href="4/teorica.html">Informática Teórica</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Quinto Período</p>
+</li>
+  <li class="">
+    <a href="5/compiladores.html">Teoria e Implementação de Linguagens Computacionais</a>
+  </li>
+  <li class="">
+    <a href="5/plc.html">Paradigmas de Linguagens Computacionais</a>
+  </li>
+  <li class="">
+    <a href="5/metodologia.html">Metodologia de Expressão Técnico-Cientifica</a>
+  </li>
+  <li class="">
+    <a href="5/hfc.html">História e Futuro da Computação</a>
+  </li>
+  <li class="">
+    <a href="5/projetao.html">Projeto de Desenvolvimento</a>
   </li>
 </ul>
 </nav>
@@ -133,9 +222,16 @@
 
     </div>
     <div class="d-none d-md-block col-md-2 bd-toc show">
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
     <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#para-rodar-o-projeto" class="nav-link">Para rodar o projeto</a>
+        </li>
     
     </ul>
 </nav>
@@ -150,6 +246,16 @@
                 
   <div class="section" id="cs-grad-subjects">
 <h1>CS-grad-subjects<a class="headerlink" href="#cs-grad-subjects" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="para-rodar-o-projeto">
+<h2>Para rodar o projeto<a class="headerlink" href="#para-rodar-o-projeto" title="Permalink to this headline">¶</a></h2>
+<p>Clone este repositório e instale as dependências com</p>
+<p><code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">requirements.txt</span></code></p>
+<p>execute o script <code class="docutils literal notranslate"><span class="pre">build</span></code> com</p>
+<p><code class="docutils literal notranslate"><span class="pre">./build</span></code></p>
+<p>para gerar os arquivos html necessários para renderizar o conteúdo no browser</p>
+<p>Para fazer o deploy no github pages, execute o script <code class="docutils literal notranslate"><span class="pre">deploy</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">./deploy</span></code></p>
+</div>
 </div>
 
 
