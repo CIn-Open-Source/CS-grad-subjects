@@ -1,5 +1,43 @@
+#https://jupyterbook.org/customize/toc.html
+
 - file: intro
-- file: content
-  sections:
-    - file: markdown
-    - file: notebooks
+
+- header: Primeiro Período
+- file: 1/avlc
+- file: 1/calculo
+- file: 1/ic
+- file: 1/ip
+- file: 1/md
+
+- header: Segundo Período
+- file: 2/algoritmos
+- file: 2/estatistica
+- file: 2/fisica
+- file: 2/logica
+- file: 2/sd
+
+- header: Terceiro Período
+- file: 3/infra_hard
+- file: 3/infra_soft
+- file: 3/infra_com
+- file: 3/ingles
+- file: 3/infosoc
+
+- header: Quarto Período
+- file: 4/ess
+- file: 4/gdi
+- file: 4/ium
+- file: 4/pg
+- file: 4/si
+- file: 4/teorica
+
+- header: Quinto Período
+- file: 5/compiladores
+- file: 5/plc
+- file: 5/metodologia
+- file: 5/multimida
+- file: 5/hfc
+- file: 5/projetao
+
+- header: Contribua!
+- file: contribua
