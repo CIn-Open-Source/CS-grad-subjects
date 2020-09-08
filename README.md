@@ -4,7 +4,7 @@
 
 Clone este repositório e instale as dependências com 
 
-`pip3 install requirements.txt`
+`pip3 install -r requirements.txt`
 
 execute o script `build` com
 
